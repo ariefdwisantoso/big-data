@@ -1,0 +1,61 @@
+@import url("//fonts.googleapis.com/css?family=Nunito:400,600,700,800");
+body {
+  font-family: "Nunito", "Segoe UI", arial;
+  font-size: 0.875rem;
+  font-weight: 400;
+  line-height: 1;
+  color: #747474;
+  background-color: #fff;
+  padding-top: 5rem;
+}
+.navbar {
+  font-family: "Nunito", "Segoe UI", arial;
+  font-size: 14px;
+}
+.navbar li:last-child > .nav-link {
+  padding-right: 0 !important;
+}
+.navbar-brand {
+  font-family: "Nunito", "Segoe UI", arial;
+  font-weight: 700;
+}
+.navbar-custom {
+  background-color: #ffffff;
+}
+.navbar-custom .navbar-nav .nav-item .nav-link {
+  font-weight: 700;
+  color: #747474;
+}
+.navbar-custom .navbar-toggler {
+  color: #747474;
+  border: none;
+}
+
+@media (min-width: 992px) and (max-width: 1199.98px) {
+  .navbar-custom .navbar-nav .nav-item .nav-link {
+    padding-left: 10px !important;
+    padding-right: 10px !important;
+  }
+}
+
+.homepage-banner {
+  height: calc(100vh - 75px);
+}
+.homepage-banner .jumbotron {
+  background-color: #ffffff;
+}
+.homepage-banner .title {
+  font-family: "Nunito", "Segoe UI", arial;
+  font-weight: 700;
+  font-size: 5rem;
+  color: #747474;
+}
+.homepage-banner .description {
+  font-size: 16px;
+  line-height: 26px;
+}
+.homepage-banner img {
+  margin-right: -100px;
+  max-width: 120% !important;
+}
+
